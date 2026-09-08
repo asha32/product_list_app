@@ -5,14 +5,16 @@ const products = [
         price: 100,
         category: 'Electronics',
         rating: 4.5,
-        image: "/images/headphone.jpg"},
+        image: `${import.meta.env.BASE_URL}images/headphone.jpg`,
+    },
     {
         id: 2,
         name: 'Smart Watch',
         price: 200,
         category: 'Electronics',
         rating: 4.0,
-        image: "/images/smartwatch.jpg",
+        image: `${import.meta.env.BASE_URL}images/smartwatch.jpg`,
+
     },
     {
         id: 3,
@@ -20,7 +22,8 @@ const products = [
         price: 80,
         category: 'Fashion',
         rating: 4.7,
-        image: "/images/runningshoes.jpg",
+        image: `${import.meta.env.BASE_URL}images/runningshoes.jpg`,
+
     },
     {
         id: 4,
@@ -28,7 +31,8 @@ const products = [
         price: 50,
         category: 'Fashion',
         rating: 4.2,
-        image: "/images/backpack.jpg",
+        image: `${import.meta.env.BASE_URL}images/backpack.jpg`,
+
     },
     {
         id: 5,
@@ -36,7 +40,8 @@ const products = [
         price: 150,
         category: 'Home',
         rating: 4.6,
-        image: "/images/coffeemaker.jpg",
+        image: `${import.meta.env.BASE_URL}images/coffeemaker.jpg`,
+
     },
     {
         id: 6,
@@ -44,7 +49,8 @@ const products = [
         price: 40,
         category: 'Home',
         rating: 4.1,
-        image: "/images/desklamp.jpg",
+        image: `${import.meta.env.BASE_URL}images/desklamp.jpg`,
+
     },
     {
         id: 7,
@@ -52,7 +58,8 @@ const products = [
         price: 120,
         category: 'Electronics',
         rating: 4.4,
-        image: "/images/bluetoothspeaker.jpg",
+        image: `${import.meta.env.BASE_URL}images/bluetoothspeaker.jpg`,
+
     },
     {
         id: 8,
@@ -60,7 +67,8 @@ const products = [
         price: 60,
         category: 'Fashion',
         rating: 4.3,
-        image: "/images/leatherwallet.jpg",
+        image: `${import.meta.env.BASE_URL}images/leatherwallet.jpg`,
+
     },
 ];
 
